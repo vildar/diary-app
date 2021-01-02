@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './note.css'
+import '../styles/note.css'
 import {Card} from 'react-bootstrap'
 
 class Note extends Component{
@@ -30,7 +30,7 @@ class Note extends Component{
                 <input defaultValue={ note.heading } type='text' placeholder='Note Title' ref={(input) => { this.textInput = input }} required/>
               </Card.Title>
               <Card.Text>
-                <textarea defaultValue={ note.value } maxLength="50" ref={(input) => { this.textAreaInput = input}} required/>
+                <textarea defaultValue={ note.value } maxLength="250" ref={(input) => { this.textAreaInput = input}} required/>
               </Card.Text>
               <Card.Text>
                 <input defaultValue={ note.date } type="date" ref={(input) => { this.dateInput = input}} required/>

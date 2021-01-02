@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './app.css'
+import '../styles/app.css'
 
 class Sort extends Component{
     sortNote = (order) => {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Collapse} from 'react-collapse'
-import {getWeek} from './utils/api'
-import './app.css'
+import {getWeek} from '../utils/api'
+import '../styles/app.css'
 
 class Filter extends Component{
     state = {

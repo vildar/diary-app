@@ -3,8 +3,8 @@ import Note from './note'
 import ListNotes from './list-notes'
 import Filter from './filter'
 import Sort from './sort'
-import './app.css';
-import {generateUID} from './utils/api'
+import '../styles/app.css';
+import {generateUID} from '../utils/api'
 import {Container, Row, Col} from 'react-bootstrap'
 
 class App extends Component {

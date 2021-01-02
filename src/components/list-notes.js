@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './list-notes.css'
+import '../styles/list-notes.css'
 
 
 class ListNotes extends Component{
