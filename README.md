@@ -6,3 +6,7 @@ To run the application:
 
 Alternatively, use this preview link:
 [Diary App]()
+
+## Note
+The function used to calculate the week number from the date is not highly accurate. It provides the correct solution
+in most of the use cases.
