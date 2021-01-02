@@ -1,0 +1,23 @@
+a{
+    margin: 0 auto;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.list-item{
+    margin-left: 14.3rem;
+    font-size: 1.5rem;
+}
+
+.list-heading{
+    margin-left: 14.3rem;
+    margin-top: 2rem;
+    background-color: gray;
+    opacity: 0.8;
+    width: 10rem;
+    color: #000;
+    font-weight: 700;
+}

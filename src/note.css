@@ -1,0 +1,18 @@
+.note-card{
+    margin-top: 5rem;
+    margin-left: 37.5rem;
+}
+
+.btn{
+    background-color: #000;
+    color: #FFF;
+}
+
+.card{
+    width: 20rem;
+    color: #FFF;
+    background-color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
